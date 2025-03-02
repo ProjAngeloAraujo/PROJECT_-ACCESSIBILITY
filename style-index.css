@@ -1,0 +1,58 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Koulen;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2597A6;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    height: 100vh;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.titulo{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    height: 20%;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.acessibilidade{
+    height: 50%;
+    width: 50%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+button{
+    border-radius: 100px;
+    height: 20vh;
+    width: 20vh;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

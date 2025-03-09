@@ -21,9 +21,17 @@ body{
     border-radius: 30px;
 }
 
+img{
+    width: 120px;
+}
+
+.auditiva{
+    width: 90px;
+}
+
 .titulo{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 10px;
     height: 20%;
 }
@@ -50,6 +58,7 @@ button{
     border-radius: 100px;
     height: 20vh;
     width: 20vh;
+    background-color: #2F1A4C;
 }
 
 button:hover{

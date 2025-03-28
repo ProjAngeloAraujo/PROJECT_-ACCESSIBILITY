@@ -56,12 +56,17 @@ h1{
 
 button{
     border-radius: 100px;
-    height: 20vh;
-    width: 20vh;
+    height: 35vh;
+    width: 35vh;
     background-color: #2F1A4C;
 }
 
 button:hover{
     cursor: pointer;
     opacity: 0.7;
+}
+
+.img{
+    height: 80%;
+    width: 80%;
 }
